@@ -1,0 +1,253 @@
+nav{
+    background:rgba(0,0,0,0.9);
+    padding: 20px;
+    display: flex;
+    color: #fff;
+    /*justify-content: left;*/
+    position: relative;
+    z-index: 99;
+    
+}
+.menu-icon{
+    display: none;
+}
+
+.logo{
+    font-weight: 600;
+    font-size: 25px;
+    color: tomato;
+    display: flex;
+    justify-content: left;
+    
+}
+.logo-div{
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.logo font{
+    color: #fff;
+}
+.menu-list{
+    list-style-type:none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-div{
+    display: flex;
+    justify-content:right;
+    
+    width: 100%;
+}
+
+.li{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+li:hover{
+    background-color: #fff;
+    font-size: 16px;
+    border: 2px;
+    border-radius: 5px;
+    color: black;
+    transition: all 0.5s ease-in-out;
+
+}
+@media screen and (max-width:800px) {
+    .logo{
+        font-size: 14px;
+    }
+    .li{
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    }
+
+@media screen and (max-width:600px) {
+    .menu-icon{
+        display: block;
+    }
+}
+/*************************  LOGIN PAGE  **********************************************/
+.loginForm{
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    float: center;
+}
+.loginButton{
+    background-color: #2859fc;
+    border-radius: 5px;
+    height: 25px;
+    width:100px;
+    color: white;
+    border-width: 0px;
+}
+.loginButton:hover{
+    background-color: green
+    ;
+}
+.form-div{
+    margin-top: 50px;
+}
+
+/************* SIGN UP ********************/
+.signUpForm{
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.signButton{
+    background-color:#348a34;
+    border-radius: 5px;
+    height: 25px;
+    width:100px;
+    color:antiquewhite;
+    border-width: 0px;
+    padding: 5px;
+}
+.signButton:hover{
+    background-color: #0dec63;
+}
+.carousel-caption {
+    top: 25%;
+    vertical-align: middle;
+    transform: translateY(-50%);
+    bottom: initial;
+    
+   }
+.caption-heading{
+    color: rgb(64, 64, 218);
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.caption-heading2{
+    color:rgba(240, 62, 62, 0.712);
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.caption-para{
+    color:rgba(240, 62, 62, 0.712);
+    
+    font-family: "Roboto";
+    
+}
+.caption-heading-2{
+    color: darkred;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.caption-heading2-2{
+    color:white;
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.caption-para-2{
+    color:white;
+    
+    font-family: "Roboto";
+    
+}
+.caption-heading-1{
+    color:green;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+.caption-heading2-1{
+    color:tomato;
+    font-weight: 900;
+    font-family: "Roboto";
+    font-size: 40px;
+}
+.caption-para-1{
+    color:tomato;
+    font-family: "Roboto";
+    
+}
+.img-text{
+    color: gray;
+    font-weight: 600;
+    font-size: 50px;
+    
+}
+.head{
+    color: gray;
+    font-weight: 500;
+}
+.para{
+    color:#2524249d;
+}
+
+.head1{
+    color: gray;
+    font-weight: 500;
+}
+.para1{
+    color:#2524249d;
+    font-size: 21px;
+}
+.navbars{
+    background-color: #E6F4F1;
+}
+
+.ulItems{
+    position: absolute;
+    right: 0;
+    margin-right: 25px;
+}
+
+.ulLi{
+    margin-right: 20px;
+    margin-top: 4px;
+}
+
+.ulLis{
+    margin-right: 20px;
+}
+
+.uliBtn{
+    border: none;
+    cursor: pointer;
+    background-color: #E6F4F1;
+}
+
+.uliBtn:focus{
+    outline: none;
+}
+
+.logBtnToggler{
+    border: none;
+    background-color: #E6F4F1;
+    color: black;
+}
+
+.logBtnToggler:hover{
+    background-color: #E6F4F1;
+    color: black;
+    
+}
+.paymentButton{
+    width: 200px;
+}
+.paymentButton:hover{
+    background-color: green;
+}
